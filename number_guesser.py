@@ -11,6 +11,11 @@ slow_print("Hello there!")
 slow_print("I'm a sentient AI entity capable of reasoning and logic, created by Joseph Obukofe 😎")
 slow_print("Just kidding, I'm a simple program created to do his bidding")
 slow_print("PS: I'm pretty good at guessing numbers 👀")
+
+name = input("Whats your name?: ")
+
+slow_print(f"Hi! {name} 😊")
+slow_print("That's a weird name but okay")
 slow_print("I want you to think of a number between 1 and 100 and I'll try and guess it")
 
 first_response = input("Kabish? (Yes/No): ")
